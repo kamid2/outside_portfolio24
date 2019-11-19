@@ -87,7 +87,7 @@ a {
 
 p{
 	line-height: 2em;
-	padding: 1em;
+	padding-left: 2em;
 }
 
 h1{
@@ -95,6 +95,7 @@ h1{
 	font-size: 3em;
 	padding-left: 1em;
 	padding-right: 1em;
+
 }
 
 h2{
@@ -110,17 +111,17 @@ h3{
 	color: blue;
 	padding-bottom: .5em;
 	padding-top: .5em;
-	padding-left: 1.5em;
+	padding-left: 2em;
 }
 
-footer{
+/*footer{
 	grid-column: 1 / -1;
 	background-color: white;
 	color: black;
 	text-align: center;
 	font-size: 12px;
 	grid-row: -1;
-}
+}*/
 
 
 .click{
