@@ -1,0 +1,108 @@
+.click{
+	background-color: yellow;
+	border-radius: 8px;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	justify-content: center;
+}
+
+@media (min-width: 769px){
+	.teaching-page{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: auto auto auto;
+	}
+
+	.click{
+		display: flex;
+		flex-direction: row;
+		grid-row: 1 / span 1;
+	}
+
+	.teaching{
+		grid-row: 1 / span 1;
+		grid-column: 1 / span 2;
+	}
+
+	.click{
+		grid-row: 2 / span 1;
+		grid-column: 1 / span 1;
+	}
+
+	.philosophy{
+		grid-row: 3 / span 1;
+		grid-column: 1 / span 2;
+
+	}
+
+	.courses{
+		grid-row: 4 / span 1;
+		text-align: center;
+		grid-column: 1 / span 2;
+	}
+
+	.course-1{
+		grid-column: 1 / span 1;
+		grid-row: 6 / span 1;
+		padding-right: 2em;
+		padding-left: 2em;
+		padding-top: 2em;
+	}
+
+	.engr100-image{
+		grid-column: 1 / span 1;
+		grid-row: 5 / span 1;
+		margin-top: 6em;
+		margin-right: 6em;
+		margin-left: 6em;
+	}	
+
+	.engr101-image{
+		grid-column: 2 / span 1;
+		grid-row: 5 / span 1;
+		margin-top: 7.5em;
+		margin-right: 6em;
+		margin-left: 6em;
+	}	
+
+	.course-2{
+		grid-column: 2 / span 1;
+		grid-row: 6 / span 1;
+		padding-top: 2em;
+		padding-right: 2em;
+		padding-left: 2em;
+	}
+
+	.past-courses{
+		grid-row: 7 / span 1;
+		grid-column: 1 / span 2;
+	}
+
+	.peggy-image{
+		grid-row: 8 / span 1;
+		grid-column: 2 / span 1;
+		margin: 10em;
+	}
+
+	.laura-in-class{
+		margin-top: 13em;
+		grid-row: 8 / span 1;
+		grid-column: 1 / span 1;
+		padding: 5em;
+	}
+	.laura-in-class h2{
+		text-align: center;
+	}
+
+}
+
+@media (min-width: 1025px){
+
+}
