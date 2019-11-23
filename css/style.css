@@ -87,7 +87,6 @@ a {
 
 p{
 	line-height: 2em;
-	padding-left: 2em;
 }
 
 h1{
@@ -114,16 +113,8 @@ h3{
 	padding-left: 2em;
 }
 
-/*footer{
-	grid-column: 1 / -1;
-	background-color: white;
-	color: black;
-	text-align: center;
-	font-size: 12px;
-	grid-row: -1;
-}*/
 
-@media (min-width: 769px) {
+@media (min-width: 600px) {
 	.header,
 	.main-nav {
 		display: flex;

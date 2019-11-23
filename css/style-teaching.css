@@ -1,37 +1,151 @@
 .click{
-	background-color: yellow;
+	background-color: yellow; 
 	border-radius: 8px;
-	border: none;
 	color: white;
 	padding: 15px 32px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
 	font-size: 16px;
-	margin: 4px 2px;
-	cursor: pointer;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
 	justify-content: center;
+	justify-self: center;
+	margin: 0 auto;
+
 }
 
-@media (min-width: 769px){
-	
+#heading{
+	background-attachment: fixed; /* Parallax effect */
+	background-image: url(../images/engr100-600.jpg);      /* Your code here - Link to header.jpg in the images folder */
+	background-position: center;  /* Parallax effect */
+	background-repeat: no-repeat; /* Parallax effect */
+	background-size: cover;       /* Parallax effect */
+	color: white;
+	height: 200px;                /* Parallax effect */
+	grid-column: 1 / -1;
+	grid-row: 2 / 3;
 }
 
-@media (min-width: 1025px){
+#heading h1{
+	color: black;
+}
+
+.teaching-page p{
+	padding-left: 2em;
+	padding-right: 1em;
+}
+
+.course-title{
+	color: black;
+
+}
+
+@media (max-width: 600px){
+	.laura-in-class{
+		display: none;
+	}
+
+	.peggy-image{
+		display: none;
+	}
+
+	.engr100-image{
+		display: none;
+	}
+
+	.engr101-image{
+		display: none;
+	}
+
+	#heading{
+		display: none;
+	}
+}
+
+@media (min-width: 600px){
+	.courses-page{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-rows: auto auto auto auto;
+	}
+
+	.course-title{
+		display: none;
+	}
+
+	#heading{
+		height: 500px;
+		grid-row: 1 / span 1;
+	}
+
+	#heading h1{
+		padding-top: 150px;
+		font-size: 4.5em;
+	}
+
+	.courses-page h2{
+		text-align: center;
+	}
+
+	.courses-page p{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.course-description{
+		grid-row: 2 / span 1;
+		grid-column: 1 / span 2;
+		background-color: yellow;
+	}
+
+	.should-take{
+		grid-row: 2 / span 1;
+		grid-column: 3 / span 2;
+		background: #000080;
+	}
+
+	.should-take h2{
+		color: yellow;
+	}
+
+	.should-take p{
+		color: white;
+	}
+
+	.courses-page-second{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		grid-gap: 20px;
+		justify-content: space-between;
+		margin:10 15px;
+	}
+
+	.courses-page-second p{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+/*begin css for teaching page*/
 	.teaching-page{
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		grid-template-rows: auto auto auto;
+		grid-template-rows: auto auto auto 100px;
+	}
+
+	.naval-engr-image{
+		display: none;
+	}
+
+	.teaching-page p{
+		padding-left: 2.5em;
+		padding-right: none;
 	}
 
 	.teaching{
 		grid-row: 1 / span 1;
 		grid-column: 1 / span 2;
-	}
-
-	.click{
-		grid-row: 2 / span 1;
-		grid-column: 1 / span 1;
 	}
 
 	.philosophy{
@@ -46,18 +160,153 @@
 		grid-column: 1 / span 2;
 	}
 
-	.class-1{
+	.course-1{
 		grid-column: 1 / span 1;
-		padding: 2em;
-	}
-
-	.class-2{
-		grid-column: 2 / span 1;
-		padding: 2em;
-	}
-
-	.past{
 		grid-row: 6 / span 1;
+		padding-right: 2em;
+		padding-left: 2em;
+		padding-top: 2em;
+	}
+
+	.engr100-image{
+		grid-column: 1 / span 1;
+		grid-row: 5 / span 1;
+		margin-top: 6em;
+		margin-right: 6em;
+		margin-left: 6em;
+	}	
+
+	.engr101-image{
+		grid-column: 2 / span 1;
+		grid-row: 5 / span 1;
+		margin-top: 7.5em;
+		margin-right: 6em;
+		margin-left: 6em;
+	}	
+
+	.course-2{
+		grid-column: 2 / span 1;
+		grid-row: 6 / span 1;
+		padding-top: 2em;
+		padding-right: 2em;
+		padding-left: 2em;
+	}
+
+	.past-courses{
+		grid-row: 7 / span 1;
 		grid-column: 1 / span 2;
 	}
+
+	.peggy-image{
+		grid-row: 8 / span 1;
+		grid-column: 2 / span 1;
+		margin-bottom: 5em;
+		margin-left: 5em;
+		margin-right: 5em;
+		margin-top: 3em;
+	}
+
+	.laura-in-class{
+		grid-row: 8 / span 1;
+		grid-column: 1 / span 1;
+
+	}
+/*css for teaching page ends*/
+
+
+
+}
+
+@media (min-width: 1025px){
+
+	.laura-in-class{
+		margin-top: 13em;
+		grid-row: 8 / span 1;
+		grid-column: 1 / span 1;
+		margin-bottom: 12em;
+		margin-left: 12em;
+		margin-right: 12em;
+		margin-top: 5em;
+	}
+	.laura-in-class h2{
+		text-align: center;
+	}
+
+	.peggy-image{
+		grid-row: 8 / span 1;
+		grid-column: 2 / span 1;
+		margin-bottom: 12em;
+		margin-left: 12em;
+		margin-right: 12em;
+		margin-top: 5em;
+	}
+	/*.flip-card{
+		justify-content: center;
+		padding-left: 70px;
+		background-color: transparent;
+		width: 500px;
+		height: 400px;
+		perspective: 1000px;
+	}
+
+	.flip-card-inner {
+	  position: fixed;
+	  width: 100%;
+	  height: 100%;
+	  text-align: center;
+	  transition: transform 0.8s;
+	  transform-style: preserve-3d;
+	}
+
+	.flip-card h1 {
+		font-size: 30px;
+		padding: 15px;
+	}
+
+	.flip-card p {
+		text-align: left;
+	}
+	.flip-card:hover .flip-card-inner {
+	  transform: rotateY(180deg);
+	}
+
+	.flip-card:focus .flip-card-inner {
+		transform: rotateY(180deg);
+	    
+	}
+
+	.flip-card-front, .flip-card-back {
+	  position: absolute;
+	  max-width: 500px;
+	  max-height: 400px;
+	  backface-visibility: hidden;
+
+	  -webkit-backface-visibility: hidden;
+	  backface-visibility: hidden;
+	  -webkit-transition: 0.6s;
+	  transition: 0.6s;
+	  -webkit-transform-style: preserve-3d;
+	  transform-style: preserve-3d;
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	}
+
+	.flip-card-front {
+	  color: black;
+
+	  z-index: 2;
+	  -webkit-transform: rotateY(0deg);
+	         transform: rotateY(0deg);
+	}
+
+	.flip-card-back {
+	  background-color: black;
+	  color: white;
+	  transform: rotateY(180deg);
+
+	   -webkit-transform: rotateY(-180deg);
+	         transform: rotateY(-180deg);
+	}*/
+
 }
