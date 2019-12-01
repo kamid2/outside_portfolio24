@@ -79,6 +79,7 @@ a {
 
 
 .header {
+	grid-column: 1/-1;
 	padding-top: .5em;
 	padding-bottom: .5em;
 	background-color: #00274c;
