@@ -133,6 +133,17 @@ h3{
 
 }
 
+.java {
+	background-color: #000080;
+	color: yellow;
+	grid-column: 2 / span 1;
+	padding: 30px;
+}
+
+.java h2 {
+	color: yellow;
+}
+
 #heading{
 	background-attachment: fixed; /* Parallax effect */
 	background-image: url(../images/engr100-600.jpg);      /* Your code here - Link to header.jpg in the images folder */
