@@ -52,6 +52,7 @@ a {
 .logo {
 	margin: 0;
 	font-size: 1.45em;
+	color:#ffcb05;
 }
 
 .main-nav {
@@ -64,7 +65,7 @@ a {
 	text-transform: uppercase;
 	text-align: center;
 	display: block;
-	color: yellow;
+	color: #ffcb05;
 }
 
 .main-nav a {
@@ -73,14 +74,14 @@ a {
 }
 
 .main-nav a:hover {
-	color: yellow;
+	color: #ffcb05;
 }
 
 
 .header {
 	padding-top: .5em;
 	padding-bottom: .5em;
-	background-color: #000080;
+	background-color: #00274c;
 }
 
 /*nav end*/
