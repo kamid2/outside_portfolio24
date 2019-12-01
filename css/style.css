@@ -115,6 +115,15 @@ h3{
 	padding-left: 2em;
 }
 
+a{
+	color: blue;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
 /* Chloe's work */
 .click{
 	background-color: yellow; 
@@ -365,10 +374,6 @@ h3{
 /* Katie's code starts  */
 
 /* Interesting Links */
-ul li:hover {
-	text-decoration: underline;
-}
-
 .container{
 	display:grid;
 	grid-template-columns: 10% auto 10%;
@@ -391,11 +396,45 @@ ul li:hover {
 	grid-row: 3/span 1;
 }
 
+/* Research */
+.container{
+	display:grid;
+	grid-template-columns: 10% auto 10%;
+	grid-template-rows: auto auto auto auto auto;
+}
+
+#main {
+	grid-column:2/span 1;
+	grid-row: 1/span 1;
+}
+
+.philosophy {
+	grid-column:2/span 1;
+	grid-row: 2/span 1;
+}
+
+.active {
+	grid-column:2/span 1;
+	grid-row: 3/span 1;
+}
+
+.past {
+	grid-column:2/span 1;
+	grid-row: 4/span 1;
+}
+
+.no_openings {
+	grid-column:2/span 1;
+	grid-row: 5/span 1;
+}
+
+
 @media (min-width: 1025px) {
 	.header {
 		flex-direction: row;
 		justify-content: space-between;
 	}
+
 
 /*chloe's part starts*/
 
