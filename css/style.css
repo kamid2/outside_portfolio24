@@ -113,6 +113,76 @@ h3{
 	padding-left: 2em;
 }
 
+/* Chloe's work */
+.click{
+	background-color: yellow; 
+	border-radius: 8px;
+	color: white;
+	padding: 15px 32px;
+	font-size: 16px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	justify-self: center;
+	margin: 0 auto;
+
+}
+
+#heading{
+	background-attachment: fixed; /* Parallax effect */
+	background-image: url(../images/engr100-600.jpg);      /* Your code here - Link to header.jpg in the images folder */
+	background-position: center;  /* Parallax effect */
+	background-repeat: no-repeat; /* Parallax effect */
+	background-size: cover;       /* Parallax effect */
+	color: white;
+	height: 200px;                /* Parallax effect */
+	grid-column: 1 / -1;
+	grid-row: 2 / 3;
+}
+
+#heading h1{
+	color: black;
+}
+
+.teaching-page p{
+	padding-left: 2em;
+	padding-right: 1em;
+}
+
+.course-title{
+	color: #000080;
+	background-color: yellow;
+
+}
+/*chloe's part ends in this section */
+
+@media (max-width: 600px){
+	/*chloe's work*/
+	.laura-in-class{
+		display: none;
+	}
+
+	.peggy-image{
+		display: none;
+	}
+
+	.engr100-image{
+		display: none;
+	}
+
+	.engr101-image{
+		display: none;
+	}
+
+	#heading{
+		display: none;
+	}
+	/*chloe's work ends*/
+}
+
 
 @media (min-width: 600px) {
 	.header,
@@ -128,6 +198,154 @@ h3{
 		max-width: 1150px;
 	}
 	}
+/*chloe's part starts (courses page and teaching page)*/
+	.courses-page{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-rows: auto auto auto auto;
+	}
+
+	.course-title{
+		display: none;
+	}
+
+	#heading{
+		height: 500px;
+		grid-row: 1 / span 1;
+	}
+
+	#heading h1{
+		padding-top: 150px;
+		font-size: 4.5em;
+	}
+
+	.courses-page h2{
+		text-align: center;
+	}
+
+	.courses-page p{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.course-description{
+		grid-row: 2 / span 1;
+		grid-column: 1 / span 2;
+		background-color: yellow;
+	}
+
+	.should-take{
+		grid-row: 2 / span 1;
+		grid-column: 3 / span 2;
+		background: #000080;
+	}
+
+	.should-take h2{
+		color: yellow;
+	}
+
+	.should-take p{
+		color: white;
+	}
+
+	.courses-page-second{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		grid-gap: 20px;
+		justify-content: space-between;
+		margin:10 15px;
+	}
+
+	.courses-page-second p{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+/*begin css for teaching page*/
+	.teaching-page{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: auto auto auto 100px;
+	}
+
+	.naval-engr-image{
+		display: none;
+	}
+
+	.teaching-page p{
+		padding-left: 2.5em;
+		padding-right: none;
+	}
+
+	.teaching{
+		grid-row: 1 / span 1;
+		grid-column: 1 / span 2;
+	}
+
+	.philosophy{
+		grid-row: 3 / span 1;
+		grid-column: 1 / span 2;
+	}
+
+	.courses{
+		grid-row: 4 / span 1;
+		text-align: center;
+		grid-column: 1 / span 2;
+	}
+
+	.course-1{
+		grid-column: 1 / span 1;
+		grid-row: 6 / span 1;
+		padding-right: 2em;
+		padding-left: 2em;
+		padding-top: 2em;
+	}
+
+	.engr100-image{
+		grid-column: 1 / span 1;
+		grid-row: 5 / span 1;
+		margin-top: 6em;
+		margin-right: 6em;
+		margin-left: 6em;
+	}	
+
+	.engr101-image{
+		grid-column: 2 / span 1;
+		grid-row: 5 / span 1;
+		margin-top: 7.5em;
+		margin-right: 6em;
+		margin-left: 6em;
+	}	
+
+	.course-2{
+		grid-column: 2 / span 1;
+		grid-row: 6 / span 1;
+		padding-top: 2em;
+		padding-right: 2em;
+		padding-left: 2em;
+	}
+
+	.past-courses{
+		grid-row: 7 / span 1;
+		grid-column: 1 / span 2;
+	}
+
+	.peggy-image{
+		grid-row: 8 / span 1;
+		grid-column: 2 / span 1;
+		margin-bottom: 5em;
+		margin-left: 5em;
+		margin-right: 5em;
+		margin-top: 3em;
+	}
+
+	.laura-in-class{
+		grid-row: 8 / span 1;
+		grid-column: 1 / span 1;
+
+	}
+/*css for teaching page ends (chloe's part ends)*/
 
 }
 
@@ -136,4 +354,29 @@ h3{
 		flex-direction: row;
 		justify-content: space-between;
 	}
+
+/*chloe's part starts*/
+
+	.laura-in-class{
+		margin-top: 13em;
+		grid-row: 8 / span 1;
+		grid-column: 1 / span 1;
+		margin-bottom: 12em;
+		margin-left: 12em;
+		margin-right: 12em;
+		margin-top: 5em;
+	}
+	.laura-in-class h2{
+		text-align: center;
+	}
+
+	.peggy-image{
+		grid-row: 8 / span 1;
+		grid-column: 2 / span 1;
+		margin-bottom: 12em;
+		margin-left: 12em;
+		margin-right: 12em;
+		margin-top: 5em;
+	}
+/*chloe's part ends*/
 }
