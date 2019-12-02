@@ -274,7 +274,7 @@ a:hover {
 	.courses-page-second{
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
-		grid-template-rows: auto ;
+		grid-template-rows: auto auto auto auto auto auto auto;
 
 /*		flex-wrap: wrap;
 		flex-direction: row;
@@ -290,18 +290,23 @@ a:hover {
 
 	.course-structure{
 		grid-column: 2 / span 2;
+		grid-row: 3;
 	}
 
 	.project{
 		grid-column: 2 / span 2;
+		grid-row: 4;
 	}
 
 	.course-content{
 		grid-column: 2 / span 2;
+		grid-row: 5;
 	}
 
 	.java{
 		grid-column: 1 / span 4;
+		text-align: center;
+		grid-row: 6;
 	}
 
 /*begin css for teaching page*/
