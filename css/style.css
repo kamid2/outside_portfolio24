@@ -272,17 +272,36 @@ a:hover {
 	}
 
 	.courses-page-second{
-		display: flex;
-		flex-wrap: wrap;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-rows: auto ;
+
+/*		flex-wrap: wrap;
 		flex-direction: row;
 		grid-gap: 20px;
 		justify-content: space-between;
-		margin:10 15px;
+		margin:10 15px;*/
 	}
 
 	.courses-page-second p{
 		padding-left: 20px;
 		padding-right: 20px;
+	}
+
+	.course-structure{
+		grid-column: 2 / span 2;
+	}
+
+	.project{
+		grid-column: 2 / span 2;
+	}
+
+	.course-content{
+		grid-column: 2 / span 2;
+	}
+
+	.java{
+		grid-column: 1 / span 4;
 	}
 
 /*begin css for teaching page*/
