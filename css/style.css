@@ -221,8 +221,7 @@ a:hover {
 		margin: 0 auto;
 		max-width: 1150px;
 	}
-	}
-/*chloe's part starts (courses page and teaching page)*/
+	}/*chloe's part starts (courses page and teaching page)*/
 	.courses-page{
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -369,7 +368,6 @@ a:hover {
 		grid-column: 1 / span 1;
 
 	}
-/*css for teaching page ends (chloe's part ends)*/
 
 
 @media (min-width: 1025px) {
@@ -689,4 +687,30 @@ footer{
 		/*padding-left: 60px;*/
 		/*position: absolute;*/
 	}
+
+	/*chloe's part starts*/
+
+	.laura-in-class{
+		margin-top: 13em;
+		grid-row: 8 / span 1;
+		grid-column: 1 / span 1;
+		margin-bottom: 12em;
+		margin-left: 12em;
+		margin-right: 12em;
+		margin-top: 5em;
+	}
+	.laura-in-class h2{
+		text-align: center;
+	}
+
+	.peggy-image{
+		grid-row: 8 / span 1;
+		grid-column: 2 / span 1;
+		margin-bottom: 12em;
+		margin-left: 12em;
+		margin-right: 12em;
+		margin-top: 5em;
+	}
+/*chloe's part ends*/
+}
 }
