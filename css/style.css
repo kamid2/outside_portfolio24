@@ -663,17 +663,12 @@ footer{
 }
 .disc_list{
 	grid-column: 2/3;
+	list-style-type:disc;
 }
 .circle_list{
 	grid-column: 2/3;
-}
-.disk_list {
-    list-style-type:disc;
-}
+	list-style-type:circle;
 
-.circle_list{
-    list-style-type:circle;
-}
 
 .videoWrapper{
 	grid-column: 2/span 1;
