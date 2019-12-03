@@ -575,7 +575,85 @@ a:hover {
 		grid-column:2/span 1;
 		grid-row: 5/span 1;
 	}
-	
+
+	/* Research  */
+
+	/* CV begins */
+	.container-cv{
+		display: grid;
+		grid-template-columns: 10% auto 10%;
+		grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto;
+	}
+
+	.cv{
+		grid-column: 2/span 1;
+		grid-row: 1/span 1;
+	}
+
+	.education{
+		grid-column: 2/span 1;
+		grid-row: 2/span 1;
+	}
+
+	.appointments{
+		grid-column: 2/span 1;
+		grid-row: 3/span 1;
+	}
+
+	.teaching{
+		text-align: left;
+		grid-column: 2/span 1;
+		grid-row: 4/span 1;
+	}
+
+	.current-research-areas{
+		grid-column: 2/span 1;
+		grid-row: 5/span 1;
+	}
+
+	.grants{
+		grid-column: 2/span 1;
+		grid-row: 6/span 1;
+	}
+
+	.selected-p{
+		grid-column: 2/span 1;
+		grid-row: 7/span 1;
+	}
+
+	.conference-p{
+		grid-column: 2/span 1;
+		grid-row: 8/span 1;
+	}
+
+	.posters{
+		grid-column: 2/span 1;
+		grid-row: 9/span 1;
+	}
+
+	.invited{
+		grid-column: 2/span 1;
+		grid-row: 10/span 1;
+	}
+
+	.other-m{
+		grid-column: 2/span 1;
+		grid-row: 11/span 1;
+	}
+
+	.honors-awards{
+		grid-column: 2/span 1;
+		grid-row: 12/span 1;
+	}
+
+	.membership{
+		grid-column: 2/span 1;
+		grid-row: 13/span 1;
+	}
+
+
+	/* CV ends	 */
+
 
 
 
