@@ -180,7 +180,7 @@ a:hover {
 	color: yellow;
 }
 
-#heading{
+.heading{
 	background-attachment: fixed; /* Parallax effect */
 	background-image: url(../images/engr100-600.jpg);      /* Your code here - Link to header.jpg in the images folder */
 	background-position: center;  /* Parallax effect */
@@ -192,7 +192,7 @@ a:hover {
 	grid-row: 2 / 3;
 }
 
-#heading h1{
+.heading h1{
 	color: black;
 }
 
@@ -226,7 +226,7 @@ a:hover {
 		display: none;
 	}
 
-	#heading{
+	.heading{
 		display: none;
 	}
 	/*chloe's work ends*/
@@ -254,12 +254,12 @@ a:hover {
 		display: none;
 	}
 
-	#heading{
+	.heading{
 		height: 500px;
 		grid-row: 1 / span 1;
 	}
 
-	#heading h1{
+	.heading h1{
 		padding-top: 150px;
 		font-size: 4.5em;
 	}
