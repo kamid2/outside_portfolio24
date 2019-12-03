@@ -233,7 +233,7 @@ a:hover {
 }
 
 
-@media (min-width: 600px) {
+@media (min-width: 769px) {
 	.header,
 	.main-nav {
 		display: flex;
@@ -246,7 +246,9 @@ a:hover {
 		margin: 0 auto;
 		max-width: 1150px;
 	}
-	}/*chloe's part starts (courses page and teaching page)*/
+	}
+	}
+	/*chloe's part starts (courses page and teaching page)*/
 	.courses-page{
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
