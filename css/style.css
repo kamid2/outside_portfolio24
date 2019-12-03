@@ -557,8 +557,9 @@ a:hover {
 	}
 	
 	.philosophy {
-		grid-column:2/ 4;
+		grid-column:2/4;
 		grid-row: 2/span 1;
+		text-align: justify;
 	}
 	
 	.active-r {
