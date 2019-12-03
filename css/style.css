@@ -658,7 +658,7 @@ footer{
   	grid-row-gap: 15px;
   	grid-template-columns: 10% auto 10%;
   	width: auto;
-	grid-template-rows: auto auto auto auto auto auto auto 270px;
+	grid-template-rows: auto auto auto auto auto auto 270px;
 
 }
 .disc_list{
