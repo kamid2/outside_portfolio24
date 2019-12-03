@@ -241,11 +241,6 @@ a:hover {
 	.header {
 		flex-direction: column;
 		align-items: center;
-    	.header{
-		width: 80%;
-		margin: 0 auto;
-		max-width: 1150px;
-	}
 	}
 	}
 	/*chloe's part starts (courses page and teaching page)*/
@@ -815,15 +810,10 @@ footer{
 		justify-content: space-between;
 	}
 	.body{
-		grid-column:
+		grid-column:2/3;
 	}
 	h1{
 		font-size: 3em;
 	}
-	.videoWrapper{
-		/*padding-left: 60px;*/
-		/*position: absolute;*/
-	}
-
 }
 }
