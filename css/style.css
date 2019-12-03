@@ -152,6 +152,23 @@ a:hover {
 
 }
 
+.courses{
+	text-align: center;
+}
+
+.teaching-page h2{
+	text-align: center;
+
+}
+
+.teaching-page-2 h2{
+	text-align: center;
+}
+
+.teaching-page-3 h2{
+	text-align: center;
+}
+
 .java {
 	background-color: #000080;
 	color: yellow;
