@@ -584,6 +584,7 @@ a:hover {
 		flex-direction: row;
 		justify-content: space-between;
 	}
+}
 
 
 /*Eldon's part starts*/
@@ -662,10 +663,13 @@ footer{
 }
 .disc_list{
 	grid-column: 2/3;
+	list-style-type:disc;
 }
 .circle_list{
 	grid-column: 2/3;
-}
+	list-style-type:circle;
+
+
 .videoWrapper{
 	grid-column: 2/span 1;
 
