@@ -353,7 +353,7 @@ a:hover {
 	}
 
 	.philosophy{
-		grid-column: 2/4;
+		grid-column: 2/3;
 		grid-row: 3 / span 1;
 		text-align: center;
 	}
