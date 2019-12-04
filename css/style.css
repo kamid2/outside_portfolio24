@@ -454,6 +454,9 @@ a:hover {
 		/*padding-right: 100px ;*/
 		/*position: relative;*/
 	}
+	.dropdown{
+		margin-bottom:150px;
+	}
 	/*	iframe{
 	
 		overflow: hidden;
@@ -827,7 +830,7 @@ footer{
   display: inline-block;
   padding-bottom: 50px;
 margin-top: 50px;
-  margin-bottom:140px;
+  margin-bottom:240px;
 }
 
 .dropdown-content {
