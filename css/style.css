@@ -352,7 +352,7 @@ a:hover {
 		grid-column: 1 / span 4;
 	}
 
-	.philosophy{
+	.philosophy-teaching{
 		grid-column: 2/4;
 		grid-row: 3 / span 1;
 		text-align: center;
@@ -556,7 +556,7 @@ a:hover {
 		grid-row: 1/span 1;
 	}
 	
-	.philosophy {
+	.philosophy-research {
 		grid-column:2/3;
 		grid-row: 2/span 1;
 		text-align: left;
@@ -904,8 +904,8 @@ footer{
 		grid-row: 1/span 1;
 	}
 
-	.philosophy {
-		grid-column:2/4;
+	.philosophy-research {
+		grid-column:2/3;
 		grid-row: 2/span 1;
 	}
 
