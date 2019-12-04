@@ -425,6 +425,7 @@ a:hover {
 		margin-right: 12em;
 	}
 
+/*eldon's work on tandem.html*/
 @media (min-width: 769px) {
 
 	.header,
@@ -462,7 +463,7 @@ a:hover {
 	}*/
 	
 }
-	
+/*eldon's work ends*/
 	
 	/* Katie's code starts  */
 	
@@ -795,6 +796,7 @@ footer{
 	height: 100%;
 }
 
+/* eldon's work ends */
 
 @media (min-width: 1025px) {
 	.portrait{
