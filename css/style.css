@@ -684,8 +684,8 @@ a:hover {
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .05em; /* Adjust as needed */
   animation:
-    typing 4.5s steps(40, end),
-    blink-caret .75s step-end 0;
+    typing 3.5s steps(30, end),
+    blink-caret .75s step-end infinite;
 }
 
 /* The typing effect */
