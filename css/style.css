@@ -766,6 +766,15 @@ footer{
 	grid-template-rows: auto auto auto auto auto auto 270px;
 
 }
+
+.tandem_image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-top: 10px;
+}
+
 .disc_list{
 	grid-column: 2/3;
 	list-style-type:disc;
