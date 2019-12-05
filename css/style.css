@@ -669,7 +669,7 @@ a:hover {
 
 
     /* CV ends   */
-
+/*eldon's sticky nav*/
 
 @media (min-width: 769px) {
 
@@ -684,8 +684,10 @@ a:hover {
     }
     .courses-page{
         padding-top: 70px;
+
     }
 
+/*sticky nav end*/
 
 }
 
@@ -808,6 +810,10 @@ footer{
     width: auto;
     grid-template-rows: auto auto auto auto auto auto 270px;
 
+}
+
+#tandem_one{
+    grid-column: 2/3;
 }
 
 .tandem_image{
