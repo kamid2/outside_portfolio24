@@ -1,4 +1,5 @@
 .container{
+    padding-top: 0px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
@@ -244,8 +245,8 @@ a:hover {
     }
     }
     /*chloe's part starts (courses page and teaching page)*/
+
     .courses-page{
-        padding-top: 70px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: auto auto auto auto;
@@ -334,7 +335,6 @@ a:hover {
 
 /*begin css for teaching page*/
     .teaching-page{
-        padding-top: 130px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: auto auto auto;
@@ -482,7 +482,6 @@ a:hover {
 
     /* Interesting Links */
     .container{
-        padding-top: 120px;
         display:grid;
         grid-template-columns: 10% auto 10%;
         grid-template-rows: auto auto auto auto auto;
@@ -596,7 +595,7 @@ a:hover {
 
     /* CV begins */
     .container-cv{
-        padding-top: 130px;
+
         display: grid;
         grid-template-columns: 10% auto 10%;
         grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto;
@@ -672,7 +671,23 @@ a:hover {
     /* CV ends   */
 
 
+@media (min-width: 769px) {
 
+    .container-cv{
+        padding-top: 130px;
+    }
+    .teaching-page{
+        padding-top: 120px;
+    }
+    .container{
+        padding-top: 120px;
+    }
+    .courses-page{
+        padding-top: 70px;
+    }
+
+
+}
 
 @media (min-width: 1025px) {
     .header {
