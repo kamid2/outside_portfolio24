@@ -829,7 +829,8 @@ footer{
   position: relative;
   display: inline-block;
   padding-bottom: 50px;
-margin-top: 50px;
+  margin:auto;
+  margin-top: 10px;
   margin-bottom:240px;
 }
 
